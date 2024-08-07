@@ -1,0 +1,46 @@
+invisible(if (!require("pacman")) install.packages("pacman"))
+
+pacman::p_load(
+  # Output-technisch
+  rmarkdown, pagedown, knitr,
+  
+  # Organisation
+  here, pacman, 
+  
+  # Visualisierung
+  hrbrthemes, RColorBrewer, corrplot, GGally, jtools, 
+  ggeasy, esquisse, cowplot, waffle, sjPlot, ggstats, 
+  jtools, ggpubr, ggfortify, ggdendro,
+  
+  # Workflow
+  magrittr, labelled, tidyverse, rlist, conflicted, tidyr, rio, 
+  purrr, clipr,
+  
+  # Datensätze
+  datasets, datarium,
+  
+  # Allg. Statistikpakete
+  DescTools, Hmisc, rstatix, janitor, MASS, psych, correlation, 
+  
+  # Output-inhaltlich
+  flextable, gtsummary, stargazer,
+  
+  # Datenextraktion Modelle
+  broom, performance, parameters,
+  
+  # Regression 
+  lmtest, lm.beta, olsrr, car, caret, sandwich, probably,
+  cutpointr,
+  
+  # Faktorenanalyse
+  multiUS, lavaan, factoextra, FactoMineR, 
+  
+  # Clusteranalyse
+  cluster, fpc, 
+  
+  # Spezifische Statistikpakete
+  WRS2, ppcor, emmeans
+  )
+  
+  
+  
